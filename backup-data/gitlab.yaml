@@ -1,0 +1,13 @@
+kind: source
+# Common source-plugin configuration
+spec:
+  name: gitlab
+  path: cloudquery/gitlab
+  version: "v4.1.5"
+  tables: ["*"]
+  destinations: ["s3"]
+
+  # Gitlab specific configuration
+  spec:
+    access_token: "<insert>"
+    base_url: "<insert>" # optional, leave empty for GitLab SaaS
