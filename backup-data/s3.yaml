@@ -4,8 +4,8 @@ spec:
   path: "cloudquery/s3"
   version: "v4.6.2"
   spec:
-    bucket: "poc-cloudquery"
-    region: "us-east-1" # Example: us-east-1
+    bucket: "<insert>"
+    region: "<insert>" # Example: us-east-1
     path: "path/to/files2/{{TABLE}}/{{UUID}}.json"
     format: "json" # options: parquet, json, csv
     format_spec:
